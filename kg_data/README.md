@@ -3,6 +3,23 @@
 
 ![](http://www.bbvdd.com/d/20190314161746ddc.png)
 
+## 运行顺序
+0. 下载原始数据, 解压后放在该目录下, 即  `kg_data/baike_triples.txt`
+1. 在kg_data目录下运行jupyter notebook
+```
+jupyter notebook .
+```
+2. 按顺序执行 data_process.ipynb
+3. 匹配实体
+``` 
+python EntityMatcher.py
+```
+4. 分词
+```
+python SentenceSegment.py
+```
+5. 按顺序执行 add_relation.ipynb
+
 
 ## 原始数据
 
