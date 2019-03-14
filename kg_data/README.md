@@ -220,8 +220,8 @@
         <th>BaiduTAG中至少含有以下类别中的一个</th>
     </tr>
     <tr>
-        <th>人物</th>
-        <th>人物、歌手、演员、作家</th>
+        <td>人物</td>
+        <td>人物、歌手、演员、作家</th>
     </tr>
     <tr>
         <th>地点</th>
@@ -247,6 +247,7 @@
 
 > **关系对齐/聚合：** 对于三元组(head, relation, tail), 其属于关系 `/人物/地点/出生地` 的条件是head属于人物类别,  tail属于地点类别,  relation为 `/人物/地点/出生地` 对应关系指代词集合中的某一个。
 
+<style> table th:first-of-type { width: 30px; } table th:nth-of-type(2) { width: 150px; } </style>
 
 <table>
     <tr>
