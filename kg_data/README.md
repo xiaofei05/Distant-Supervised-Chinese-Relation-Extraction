@@ -93,7 +93,7 @@
 **word2vec 使用教程：** https://radimrehurek.com/gensim/models/word2vec.html
 
 ### 定义用户字典
-为防止实体被错误分词, 将所有实体(实体字典的键值集合)写入到文件`dict.txt`作为用户字典。
+为防止实体被错误分词, 将所有实体(实体字典的键集合)写入到文件`dict.txt`作为用户字典。
 ### 定义停用词
 定义文件`stop_word.txt`, 在分词过程中对句子去除中文停用词。(网上资源较多)
 
@@ -122,7 +122,7 @@
 
 ## 句子、实体对筛选
 
-对分词后的句子重新对实体进行筛选, 对每一个句子的实体列表中的实体, 若其没有在分词后的句子中出现, 则去除该实体。对筛选后的实体集合两两组合, 数据处理为`[[sentence, entity_head, entity_tail, [sentence_seg]]]`的格式。（一个句子可能被拆分到多个样本。）
+对分词后的句子重新对实体进行筛选, 对每一个句子的实体列表中的实体, 若其没有在分词后的句子中出现, 则去除该实体。对筛选后的实体集合两两组合, 数据处理为`[[sentence, entity_head, entity_tail, [sentence_seg]]]`的格式。（一个句子可能被用于多个样本。）
 
 此处先对句子匹配实体, 去除不符合条件的句子后然后分词, 再用分词后的句子匹配实体的主要原因是：
 1. 某些实体名称可能是另一实体的子集, 如“北京”和“北京大学”。在句子“北京大学是中国的著名大学。”中, 出现的实体应仅为“北京大学”。
@@ -221,6 +221,30 @@
 地点|地点、地理、城市、国家、地区
 其它| 不限制
 > **关系对齐/聚合：** 对于三元组(head, relation, tail), 其属于关系 `/人物/地点/出生地` 的条件是head属于人物类别,  tail属于地点类别,  relation为 `/人物/地点/出生地` 对应关系指代词集合中的某一个。
+
+
+<table>
+  <tr>
+    <th>Tables</th>
+    <th>Are</th>
+    <th>Cool</th>
+  </tr>
+  <tr>
+    <td>col 1 is</td>
+    <td>left-aligned</td>
+    <td>$1600</td>
+  </tr>
+  <tr>
+    <td>col 2 is</td>
+    <td>centered</td>
+    <td>$12</td>
+  </tr>
+  <tr>
+    <td>col 3 is</td>
+    <td>right-aligned</td>
+    <td>$1</td>
+  </tr>
+</table>
 
 <style>
 table th:first-of-type {
