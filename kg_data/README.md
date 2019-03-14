@@ -222,6 +222,14 @@
 其它| 不限制
 > **关系对齐/聚合：** 对于三元组(head, relation, tail)，其属于关系 `/人物/地点/出生地` 的条件是head属于人物类别， tail属于地点类别， relation为 `/人物/地点/出生地` 对应关系指代词集合中的某一个。
 
+<style>
+table th:first-of-type {
+	width: 30px;
+}
+table th:nth-of-type(2) {
+	width: 150px;
+}
+</style>
 
 序号|关系类别|关系指代词集合
 :-:|:-:|:-:
