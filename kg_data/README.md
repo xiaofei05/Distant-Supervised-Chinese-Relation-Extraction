@@ -214,29 +214,7 @@
 # 附录
 
 
-<table>
-    <tr>
-        <th>实体类别</th>
-        <th>BaiduTAG中至少含有以下类别中的一个</th>
-    </tr>
-    <tr>
-        <td>人物</td>
-        <td>人物、歌手、演员、作家</th>
-    </tr>
-    <tr>
-        <th>地点</th>
-        <th>地点、地理、城市、国家、地区</th>
-    </tr>
-    <tr>
-        <th>机构</th>
-        <th>机构、企业、公司、学校、部门、大学</th>
-    </tr>
-    <tr>
-        <th>其它</th>
-        <th>不限制</th>
-    </tr>
-</table>
-
+ 
 
 实体类别|BaiduTAG中至少含有以下类别中的一个
 :-:|:-:
@@ -245,10 +223,9 @@
 地点|地点、地理、城市、国家、地区
 其它| 不限制
 
-> **关系对齐/聚合：** 对于三元组(head, relation, tail), 其属于关系 `/人物/地点/出生地` 的条件是head属于人物类别,  tail属于地点类别,  relation为 `/人物/地点/出生地` 对应关系指代词集合中的某一个。
+**关系对齐/聚合：** 对于三元组(head, relation, tail), 其属于关系 `/人物/地点/出生地` 的条件是head属于人物类别,  tail属于地点类别,  relation为 `/人物/地点/出生地` 对应关系指代词集合中的某一个。
 
 <style> table th:first-of-type { width: 30px; } table th:nth-of-type(2) { width: 150px; } </style>
-
 <table>
     <tr>
         <th>序号</th>
