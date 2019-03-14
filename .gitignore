@@ -1,0 +1,19 @@
+# folders
+data
+_processed_data
+summary
+checkpoint
+test_result
+log_sbatch
+
+# files
+*.pyc
+*.swp
+*.tar
+*.sh
+sbatch*
+_*
+*.ipynb
+
+# virtual env
+.virtual
