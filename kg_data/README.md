@@ -234,117 +234,117 @@
     </tr>
     <tr>
         <td align="center" width=10px>0</td>
-        <td width=150px align="center">NA</td>
+        <td width=200px align="center">NA</td>
         <td>原始数据不存在关系</td>
     </tr>
     <tr>
-        <td width=30px align="center">1</td>
-        <td width=150px align="center">/人物/人物/家庭成员</td>
+        <td width=50px align="center">1</td>
+        <td width=200px align="center">/人物/人物/家庭成员</td>
         <td>父亲、母亲、丈夫、妻子、儿子、女儿、哥哥、妹妹、姐姐、弟弟、孙子、孙女、爷爷、奶奶、外婆、外公、家人、家庭成员 ,夫人、对象、夫君</td>
     </tr>
     <tr>
-        <td width=30px align="center">2</td>
-        <td width=150px align="center">/人物/人物/社交关系</td>
+        <td width=50px align="center">2</td>
+        <td width=200px align="center">/人物/人物/社交关系</td>
         <td> 朋友、好友、同学、合作、搭档、经纪人、师从</td>
     </tr>
     <tr>
-        <td width=30px align="center">3</td>
-        <td width=150px align="center">/人物/地点/出生地</td>
+        <td width=50px align="center">3</td>
+        <td width=200px align="center">/人物/地点/出生地</td>
         <td>出生地、出生于、来自、歌手出生地、作者出生地、出生在、作者出生地、出生</td>
     </tr>
     <tr>
-        <td width=30px align="center">4</td>
-        <td width=150px align="center">/人物/地点/居住地</td>
+        <td width=50px align="center">4</td>
+        <td width=200px align="center">/人物/地点/居住地</td>
         <td>居住地、主要居住地、居住、现居住、目前居住地、现居住于、居住地点、居住于</td>
     </tr>
     <tr>
-        <td width=30px align="center">5</td>
-        <td width=150px align="center">/人物/地点/国籍</td>
+        <td width=50px align="center">5</td>
+        <td width=200px align="center">/人物/地点/国籍</td>
         <td>国籍、国家</td>
     </tr>
     <tr>
-        <td width=30px align="center">6</td>
-        <td width=150px align="center">/人物/组织/毕业于</td>
+        <td width=50px align="center">6</td>
+        <td width=200px align="center">/人物/组织/毕业于</td>
         <td>毕业院校、毕业于、毕业学院、本科毕业院校、最后毕业院校、毕业高中、毕业地点、本科毕业学校、知名校友</td>
     </tr>
     <tr>
-        <td width=30px align="center">7</td>
-        <td width=150px align="center">/人物/组织/属于</td>
+        <td width=50px align="center">7</td>
+        <td width=200px align="center">/人物/组织/属于</td>
         <td>隶属单位、经纪公司、隶属关系、行政隶属、隶属学校、隶属大学、隶属地区、所属公司、签约公司、任职公司、工作单位、所属</td>
     </tr>
     <tr>
-        <td width=30px align="center">8</td>
-        <td width=150px align="center">/人物/其它/职业</td>
+        <td width=50px align="center">8</td>
+        <td width=200px align="center">/人物/其它/职业</td>
         <td>职业</td>
     </tr>
     <tr>
-        <td width=30px align="center">9</td>
-        <td width=150px align="center">/人物/其它/民族</td>
+        <td width=50px align="center">9</td>
+        <td width=200px align="center">/人物/其它/民族</td>
         <td>民族</td>
     </tr>
     <tr>
-        <td width=30px align="center">10</td>
-        <td width=150px align="center">/组织/人物/拥有者</td>
+        <td width=50px align="center">10</td>
+        <td width=200px align="center">/组织/人物/拥有者</td>
         <td>拥有、拥有者</td>
     </tr>
     <tr>
-        <td width=30px align="center">11</td>
-        <td width=150px align="center">/组织/人物/创始人</td>
+        <td width=50px align="center">11</td>
+        <td width=200px align="center">/组织/人物/创始人</td>
         <td>创始人、创始、主要创始人、集团创始人</td>
     </tr>
     <tr>
-        <td width=30px align="center">12</td>
-        <td width=150px align="center">/组织/人物/校长</td>
+        <td width=50px align="center">12</td>
+        <td width=200px align="center">/组织/人物/校长</td>
         <td>校长、现任校长、学校校长、总校长</td>
     </tr>
     <tr>
-        <td width=30px align="center">13</td>
-        <td width=150px align="center">/组织/人物/领导人</td>
+        <td width=50px align="center">13</td>
+        <td width=200px align="center">/组织/人物/领导人</td>
         <td>领导、现任领导、领导单位、主要领导、领导人、主要领导人</td>
     </tr>
     <tr>
-        <td width=30px align="center">14</td>
-        <td width=150px align="center">/组织/组织/周边</td>
+        <td width=50px align="center">14</td>
+        <td width=200px align="center">/组织/组织/周边</td>
         <td>周围景观、周边景点</td>
     </tr>
     <tr>
-        <td width=30px align="center">15</td>
-        <td width=150px align="center">/组织/地点/位于</td>
+        <td width=50px align="center">15</td>
+        <td width=200px align="center">/组织/地点/位于</td>
         <td>所属地区、国家、地区、地理位置、位于、区域、地点、总部地点、所在地、所在区域、位于城市、总部位于、酒店位于、学校位于、最早位于、地址、所在城市、城市、主要城市、坐落于</td>
     </tr>
     <tr>
-        <td width=30px align="center">16</td>
-        <td width=150px align="center">/地点/人物/相关人物</td>
+        <td width=50px align="center">16</td>
+        <td width=200px align="center">/地点/人物/相关人物</td>
         <td>相关人物、知名人物、历史人物</td>
     </tr>
     <tr>
-        <td width=30px align="center">17</td>
-        <td width=150px align="center">/地点/地点/位于</td>
+        <td width=50px align="center">17</td>
+        <td width=200px align="center">/地点/地点/位于</td>
         <td>所属地区、所属国、所属洲、所属州、所属国家、最大城市、地区、地理位置、位于、区域、地点、总部地点、所在地、所在区域、位于城市、总部位于、酒店位于、学校位于、最早位于、地址、所在城市、城市、主要城市、坐落于</td>
     </tr>
     <tr>
-        <td width=30px align="center">18</td>
-        <td width=150px align="center">/地点/地点/毗邻</td>
+        <td width=50px align="center">18</td>
+        <td width=200px align="center">/地点/地点/毗邻</td>
         <td>毗邻、东邻、邻近行政区、相邻、紧邻、邻近、北邻、南邻、邻国</td>
     </tr>
     <tr>
-        <td width=30px align="center">19</td>
-        <td width=150px align="center">/地点/地点/包含</td>
+        <td width=50px align="center">19</td>
+        <td width=200px align="center">/地点/地点/包含</td>
         <td>包含、包含国家、包含人物、下辖地区、下属、</td>
     </tr>
     <tr>
-        <td width=30px align="center">20</td>
-        <td width=150px align="center">/地点/地点/首都</td>
+        <td width=50px align="center">20</td>
+        <td width=200px align="center">/地点/地点/首都</td>
         <td>首都</td>
     </tr>
     <tr>
-        <td width=30px align="center">21</td>
-        <td width=150px align="center">/地点/组织/景点</td>
+        <td width=50px align="center">21</td>
+        <td width=200px align="center">/地点/组织/景点</td>
         <td>著名景点、主要景点、旅游景点、特色景点</td>
     </tr>
     <tr>
-        <td width=30px align="center">22</td>
-        <td width=150px align="center">/地点/其它/气候</td>
+        <td width=50px align="center">22</td>
+        <td width=200px align="center">/地点/其它/气候</td>
         <td> 气候类型、气候条件、气候、气候带</td>
     </tr>
 </table>
