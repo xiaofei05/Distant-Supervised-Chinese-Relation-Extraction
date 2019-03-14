@@ -1,4 +1,4 @@
-# Distant-Supervised-Chinese-Relation-Extraction
+﻿# Distant-Supervised-Chinese-Relation-Extraction
 ## 基于远监督的中文关系抽取
 
 ### 数据集构建
@@ -6,7 +6,7 @@
 * 中文通用知识库CN-DBpedia
 * 远监督假设
 
-处理流程可在 kg_data/README.md 中查看
+处理流程可在 kg_data/README.md 中查看。点击[此处(谷歌云盘)](https://drive.google.com/file/d/1eBrXikY0pxO9dbipwB9et2U-OtPcxEGr/view?usp=sharing)下载处理后的数据子集。
 
 ### 模型选择
 
