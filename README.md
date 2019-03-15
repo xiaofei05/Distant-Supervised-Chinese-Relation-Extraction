@@ -6,7 +6,7 @@
 * 中文通用知识库CN-DBpedia
 * 远监督假设
 
-处理流程可在 kg_data/README.md 中查看。点击[此处(谷歌云盘)](https://drive.google.com/file/d/1eBrXikY0pxO9dbipwB9et2U-OtPcxEGr/view?usp=sharing)下载处理后的数据子集。
+处理流程可在 kg_data/README.md 中查看。点击[此处(谷歌云盘)](https://drive.google.com/open?id=1XmWW3-wveKiJFauqZTPcSbsgh4lECRBK)下载处理后的数据子集。
 
 ### 模型选择
 
