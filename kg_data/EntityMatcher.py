@@ -33,12 +33,12 @@ class EntityMatcher:
 
     def write_file(self, data):
         with open(data[1], 'wb') as f:
-            pickle.dump(data[0])
+            pickle.dump(data[0], f)
 
     def run(self):
         pool = multiprocessing.Pool(processes=self.process_num)
         for one_file in self.sentence_files:
-            pool.apply_async(self.match, args=(str(one_file)), callback=self.write_file)
+            pool.apply_async(self.match, args=(str(one_file), ), callback=self.write_file)
         pool.close()
         pool.join()
 
