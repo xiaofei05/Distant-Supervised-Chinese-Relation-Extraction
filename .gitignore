@@ -1,19 +1,5 @@
-# folders
-data
-_processed_data
-summary
-checkpoint
-test_result
-log_sbatch
-
-# files
-*.pyc
-*.swp
-*.tar
-*.sh
-sbatch*
-_*
-*.ipynb
-
-# virtual env
-.virtual
+.ipynb_checkpoints/
+kg_data/processed/
+kg_data/baike_triples.txt
+kg_data/baiketriples.zip
+kg_data/.ipynb_checkpoints/

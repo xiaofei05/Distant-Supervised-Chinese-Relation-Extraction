@@ -63,7 +63,7 @@ class SentenceSegment:
         pool.join()
 
 if __name__ == "__main__":
-    dict_file = 'dict.txt'
+    dict_file = 'processed/entity.txt'
     stop_word = 'stop_word.txt'
     sentences_folder = 'processed/sentences'
     process_num = 8

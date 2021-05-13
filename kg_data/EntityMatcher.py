@@ -18,6 +18,7 @@ class EntityMatcher:
                 self.sentence_files.append(os.path.join(root, file))
 
     def match(self, file_name):
+        print('Start %s!'%(file_name))
         with open(file_name, 'rb') as f:
             data = pickle.load(f)
         new_data = []
@@ -28,7 +29,7 @@ class EntityMatcher:
                     eset.append(entity)
             if len(eset)>1:
                 new_data.append([sen, eset])
-        print('%s done!'%(file_name))
+        print('Done %s!'%(file_name))
         return new_data, file_name
 
     def write_file(self, data):
@@ -47,12 +48,11 @@ if __name__ == "__main__":
     sentences_folder = 'processed/sentences'
     process_num = 8
     st = time.localtime()
-
+    print('\n开始时间: ')
+    print(time.strftime("%Y-%m-%d %H:%M:%S", st))
     em = EntityMatcher(entity_file, sentences_folder, process_num)
     em.run()
 
     ed = time.localtime()
-    print('\n开始时间: ')
-    print(time.strftime("%Y-%m-%d %H:%M:%S", st))
     print('结束时间: ')
     print (time.strftime("%Y-%m-%d %H:%M:%S", ed))
